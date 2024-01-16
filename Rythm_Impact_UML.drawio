@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-16T16:46:56.591Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="JTfpO1JnxIIiIw6_zZnr" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-16T16:58:32.486Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="_Vx9WoDyb0cXfFo9LLyY" version="22.1.18" type="github">
   <diagram name="Sayfa -1" id="yCrZOPDf6HmHTxJyL4QL">
-    <mxGraphModel dx="1696" dy="1637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1671" dy="1623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -60,7 +60,7 @@
         <mxCell id="bwt9VeVOE_LFPgZfpiQ7-16" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;sketch=1;curveFitting=1;jiggle=2;fontColor=#46495D;" vertex="1" parent="bwt9VeVOE_LFPgZfpiQ7-13">
           <mxGeometry y="90" width="270" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bwt9VeVOE_LFPgZfpiQ7-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;sketch=1;curveFitting=1;jiggle=2;strokeColor=#788AA3;" edge="1" parent="1" source="bwt9VeVOE_LFPgZfpiQ7-22" target="bwt9VeVOE_LFPgZfpiQ7-24">
+        <mxCell id="bwt9VeVOE_LFPgZfpiQ7-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;sketch=1;curveFitting=1;jiggle=2;strokeColor=#788AA3;shadow=1;" edge="1" parent="1" source="bwt9VeVOE_LFPgZfpiQ7-22" target="bwt9VeVOE_LFPgZfpiQ7-24">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="855" y="550" />
@@ -85,15 +85,18 @@
           <mxGeometry y="30" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bwt9VeVOE_LFPgZfpiQ7-24" value="Laser" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
-          <mxGeometry x="440" y="620" width="270" height="170" as="geometry">
+          <mxGeometry x="440" y="620" width="270" height="180" as="geometry">
             <mxRectangle x="330" y="430" width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bwt9VeVOE_LFPgZfpiQ7-25" value="- float laserDamage&lt;br&gt;- float laserDuration" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;sketch=1;curveFitting=1;jiggle=2;fontColor=#46495D;" vertex="1" parent="bwt9VeVOE_LFPgZfpiQ7-24">
           <mxGeometry y="30" width="270" height="90" as="geometry" />
         </mxCell>
+        <mxCell id="bwt9VeVOE_LFPgZfpiQ7-110" value="" style="line;strokeWidth=1;rotatable=0;dashed=0;labelPosition=right;align=left;verticalAlign=middle;spacingTop=0;spacingLeft=6;points=[];portConstraint=eastwest;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="bwt9VeVOE_LFPgZfpiQ7-24">
+          <mxGeometry y="120" width="270" height="10" as="geometry" />
+        </mxCell>
         <mxCell id="bwt9VeVOE_LFPgZfpiQ7-26" value="- void ShootLaser();&lt;br&gt;- OnTriggerEnter2D();" style="text;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;sketch=1;curveFitting=1;jiggle=2;fontColor=#46495D;" vertex="1" parent="bwt9VeVOE_LFPgZfpiQ7-24">
-          <mxGeometry y="120" width="270" height="50" as="geometry" />
+          <mxGeometry y="130" width="270" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bwt9VeVOE_LFPgZfpiQ7-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;sketch=1;curveFitting=1;jiggle=2;strokeColor=#788AA3;" edge="1" parent="1" target="bwt9VeVOE_LFPgZfpiQ7-28">
           <mxGeometry relative="1" as="geometry">
@@ -104,26 +107,32 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bwt9VeVOE_LFPgZfpiQ7-28" value="Missile" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
-          <mxGeometry x="720" y="620" width="270" height="260" as="geometry">
+          <mxGeometry x="720" y="620" width="270" height="270" as="geometry">
             <mxRectangle x="330" y="430" width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bwt9VeVOE_LFPgZfpiQ7-29" value="- Rigidbody2D rb&lt;br&gt;- float missileSpeed&lt;br&gt;- float damage&lt;br&gt;- float targetRange&lt;br&gt;- float rotationSpeed&lt;br&gt;- float missileLifetime" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;sketch=1;curveFitting=1;jiggle=2;fontColor=#46495D;" vertex="1" parent="bwt9VeVOE_LFPgZfpiQ7-28">
           <mxGeometry y="30" width="270" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="bwt9VeVOE_LFPgZfpiQ7-30" value="- void Move();&lt;br&gt;- void LocateEnemy();&lt;br&gt;- void MissileRotation();&lt;br&gt;- void DisableMissile();&lt;br&gt;- OnTriggerEnter2D();" style="text;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;sketch=1;curveFitting=1;jiggle=2;fontColor=#46495D;" vertex="1" parent="bwt9VeVOE_LFPgZfpiQ7-28">
-          <mxGeometry y="160" width="270" height="100" as="geometry" />
+        <mxCell id="bwt9VeVOE_LFPgZfpiQ7-108" value="" style="line;strokeWidth=1;rotatable=0;dashed=0;labelPosition=right;align=left;verticalAlign=middle;spacingTop=0;spacingLeft=6;points=[];portConstraint=eastwest;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="bwt9VeVOE_LFPgZfpiQ7-28">
+          <mxGeometry y="160" width="270" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="bwt9VeVOE_LFPgZfpiQ7-30" value="- void Move();&lt;br&gt;- void LocateEnemy();&lt;br&gt;- void MissileRotation();&lt;br&gt;- void DisableMissile();&lt;br&gt;- OnTriggerEnter2D();" style="text;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;sketch=1;curveFitting=1;jiggle=2;fontColor=#46495D;strokeColor=none;strokeWidth=1;" vertex="1" parent="bwt9VeVOE_LFPgZfpiQ7-28">
+          <mxGeometry y="170" width="270" height="100" as="geometry" />
         </mxCell>
         <mxCell id="bwt9VeVOE_LFPgZfpiQ7-31" value="SonicBomb" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="620" width="270" height="270" as="geometry">
+          <mxGeometry x="1000" y="620" width="270" height="280" as="geometry">
             <mxRectangle x="330" y="430" width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bwt9VeVOE_LFPgZfpiQ7-32" value="- Rigidbody2D rb;&lt;br&gt;- float force;&lt;br&gt;- float bombLifetime&lt;br&gt;- bool isCollided&lt;br&gt;&lt;br&gt;- ShockwaveEffect shockwaveEffect&lt;br&gt;- SpriteRenderer soundBombSprite" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;sketch=1;curveFitting=1;jiggle=2;fontColor=#46495D;" vertex="1" parent="bwt9VeVOE_LFPgZfpiQ7-31">
           <mxGeometry y="30" width="270" height="120" as="geometry" />
         </mxCell>
+        <mxCell id="bwt9VeVOE_LFPgZfpiQ7-109" value="" style="line;strokeWidth=1;rotatable=0;dashed=0;labelPosition=right;align=left;verticalAlign=middle;spacingTop=0;spacingLeft=6;points=[];portConstraint=eastwest;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="bwt9VeVOE_LFPgZfpiQ7-31">
+          <mxGeometry y="150" width="270" height="10" as="geometry" />
+        </mxCell>
         <mxCell id="bwt9VeVOE_LFPgZfpiQ7-33" value="- OnTriggerEnter2D();&lt;br&gt;- DisableObject();" style="text;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;sketch=1;curveFitting=1;jiggle=2;fontColor=#46495D;" vertex="1" parent="bwt9VeVOE_LFPgZfpiQ7-31">
-          <mxGeometry y="150" width="270" height="120" as="geometry" />
+          <mxGeometry y="160" width="270" height="120" as="geometry" />
         </mxCell>
         <mxCell id="bwt9VeVOE_LFPgZfpiQ7-34" value="CrewMemberType&amp;nbsp;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
           <mxGeometry x="550" y="350" width="120" height="90" as="geometry">
@@ -242,7 +251,7 @@
           <mxGeometry x="290" y="390" width="160" height="140" as="geometry" />
         </mxCell>
         <mxCell id="bwt9VeVOE_LFPgZfpiQ7-97" value="GameManager" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="-550" width="140" height="120" as="geometry" />
+          <mxGeometry x="1130" y="-555" width="140" height="120" as="geometry" />
         </mxCell>
         <mxCell id="bwt9VeVOE_LFPgZfpiQ7-98" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#46495D;" vertex="1" parent="bwt9VeVOE_LFPgZfpiQ7-97">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
