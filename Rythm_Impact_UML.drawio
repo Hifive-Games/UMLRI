@@ -1,19 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2024-01-16T16:58:32.486Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="_Vx9WoDyb0cXfFo9LLyY" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-16T17:39:27.178Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Wzt8i-b_uREcWHVSG4Sb" version="22.1.18" type="github">
   <diagram name="Sayfa -1" id="yCrZOPDf6HmHTxJyL4QL">
-    <mxGraphModel dx="1671" dy="1623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1696" dy="1637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="bwt9VeVOE_LFPgZfpiQ7-2" value="AudioSpectrum : MonoBehaviour" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
-          <mxGeometry x="210" y="-430" width="270" height="480" as="geometry">
+          <mxGeometry x="210" y="-430" width="270" height="490" as="geometry">
             <mxRectangle x="330" y="430" width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bwt9VeVOE_LFPgZfpiQ7-3" value="- float[] spectrum&lt;br&gt;+ Color[] bandColor&lt;br&gt;&lt;br&gt;+ bool[] isBandTrigger&lt;br&gt;- float[] band&lt;br&gt;- float[] bandBuffer&lt;br&gt;- float[] bufferDecrease&lt;br&gt;- float[] maxValue&lt;br&gt;- bool printBands&lt;br&gt;- float[,] maxThresholds&lt;br&gt;- float[,] minThresholds&lt;br&gt;&lt;br&gt;- AudioSource audioSource" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;sketch=1;curveFitting=1;jiggle=2;fontColor=#46495D;" vertex="1" parent="bwt9VeVOE_LFPgZfpiQ7-2">
           <mxGeometry y="30" width="270" height="240" as="geometry" />
         </mxCell>
+        <mxCell id="bwt9VeVOE_LFPgZfpiQ7-112" value="" style="line;strokeWidth=1;rotatable=0;dashed=0;labelPosition=right;align=left;verticalAlign=middle;spacingTop=0;spacingLeft=6;points=[];portConstraint=eastwest;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" vertex="1" parent="bwt9VeVOE_LFPgZfpiQ7-2">
+          <mxGeometry y="270" width="270" height="10" as="geometry" />
+        </mxCell>
         <mxCell id="bwt9VeVOE_LFPgZfpiQ7-4" value="- float GetAverageMaxThreshold();&lt;br&gt;- float GetAverageMinThreshold();&lt;br&gt;- void SetMaxThreshold();&lt;br&gt;- void SetMinThreshold();&lt;br&gt;+ bool BandBuffer();&lt;br&gt;- float[] GetFrequencyBands();&lt;br&gt;- void GetFFT();&lt;br&gt;+ float GetAmplitude();" style="text;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;sketch=1;curveFitting=1;jiggle=2;fontColor=#46495D;" vertex="1" parent="bwt9VeVOE_LFPgZfpiQ7-2">
-          <mxGeometry y="270" width="270" height="210" as="geometry" />
+          <mxGeometry y="280" width="270" height="210" as="geometry" />
         </mxCell>
         <mxCell id="bwt9VeVOE_LFPgZfpiQ7-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;sketch=1;curveFitting=1;jiggle=2;strokeColor=#788AA3;" edge="1" parent="1" source="bwt9VeVOE_LFPgZfpiQ7-6" target="bwt9VeVOE_LFPgZfpiQ7-40">
           <mxGeometry relative="1" as="geometry" />
