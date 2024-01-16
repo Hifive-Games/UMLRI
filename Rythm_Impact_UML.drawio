@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-16T15:36:27.430Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="k45zzCxYEcjqR8Znm6sI" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-16T15:37:24.965Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="RiIxQ0ct6G8YOUnztxmb" version="22.1.18" type="github">
   <diagram name="Sayfa -1" id="yCrZOPDf6HmHTxJyL4QL">
-    <mxGraphModel dx="1851" dy="1720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1646" dy="1610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -232,7 +232,7 @@
         <mxCell id="bwt9VeVOE_LFPgZfpiQ7-64" value="+float movementSpeed" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;sketch=1;curveFitting=1;jiggle=2;fontColor=#46495D;" vertex="1" parent="bwt9VeVOE_LFPgZfpiQ7-62">
           <mxGeometry y="60" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bwt9VeVOE_LFPgZfpiQ7-80" value="+CrewCount&lt;br&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;sketch=1;curveFitting=1;jiggle=2;fontColor=#46495D;" vertex="1" parent="bwt9VeVOE_LFPgZfpiQ7-62">
+        <mxCell id="bwt9VeVOE_LFPgZfpiQ7-80" value="+int CrewCount" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;sketch=1;curveFitting=1;jiggle=2;fontColor=#46495D;" vertex="1" parent="bwt9VeVOE_LFPgZfpiQ7-62">
           <mxGeometry y="90" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bwt9VeVOE_LFPgZfpiQ7-65" value="+SpriteRenderer&lt;br&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;sketch=1;curveFitting=1;jiggle=2;fontColor=#46495D;" vertex="1" parent="bwt9VeVOE_LFPgZfpiQ7-62">
