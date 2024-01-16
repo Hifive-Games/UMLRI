@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-16T15:45:29.570Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0" etag="OOukH9Q277ozO-2DqvZh" version="22.1.19" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-16T15:59:12.756Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0" etag="OpkBYYci31xnBH5h2ctW" version="22.1.19" type="github">
   <diagram name="Sayfa -1" id="yCrZOPDf6HmHTxJyL4QL">
     <mxGraphModel dx="2166" dy="1573" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="bwt9VeVOE_LFPgZfpiQ7-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1.009;exitY=0.336;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;sketch=1;curveFitting=1;jiggle=2;strokeColor=#788AA3;" parent="1" source="bwt9VeVOE_LFPgZfpiQ7-3" target="bwt9VeVOE_LFPgZfpiQ7-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bwt9VeVOE_LFPgZfpiQ7-2" value="AudioSpectrum" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" parent="1" vertex="1">
+        <mxCell id="bwt9VeVOE_LFPgZfpiQ7-2" value="AudioSpectrum : MonoBehaviour" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" parent="1" vertex="1">
           <mxGeometry x="210" y="-430" width="270" height="480" as="geometry">
             <mxRectangle x="330" y="430" width="60" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -127,7 +127,7 @@
         </mxCell>
         <mxCell id="bwt9VeVOE_LFPgZfpiQ7-34" value="CrewMemberType&amp;nbsp;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" parent="1" vertex="1">
           <mxGeometry x="550" y="350" width="120" height="90" as="geometry">
-            <mxRectangle x="330" y="430" width="60" height="30" as="alternateBounds" />
+            <mxRectangle x="550" y="350" width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bwt9VeVOE_LFPgZfpiQ7-35" value="projectile,&lt;br&gt;laser" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;sketch=1;curveFitting=1;jiggle=2;fontColor=#46495D;" parent="bwt9VeVOE_LFPgZfpiQ7-34" vertex="1">
